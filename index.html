@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/5cceee1380.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <form>
+        <div class="header">
+            <h1>Payment for example</h1>
+        </div>
+        <div class="toptopcard">
+            <div class="message">
+                <p>Some fields are missing</p>
+            </div>
+            <div class="topCard">
+                <div class="field card">
+                    <label for="card">Card #</label>
+                    <input type="number" id="card" name="card" placeholder="XXXXXXXXXXXXXXXX">
+                </div>
+                <div class="field cvc">
+                    <label for="cvc">CVC #</label>
+                    <input type="number" id="cvc" maxlength="4" name="cvc" placeholder="0000">
+                </div>
+                <div class="field amount">
+                    <label for="amount">Amount</label>
+                    <input type="number" id="amount" name="amount" placeholder="Amount">
+                </div>
+            </div>
+        </div>
+        <div class="mainBody">
+            <div class="leftBody">
+                <div class="field">
+                    <label for="fName">First Name</label>
+                    <input type="text" id="fName" name="fName">
+                </div>
+                <div class="field">
+                    <label for="city">City</label>
+                    <input type="text" id="city" name="city">
+                </div>
+                <div class="field">
+                    <label for="cardType">We accept:</label>
+                    <div class="cardType">
+                        <input type="radio" id="html" name="fav_language" value="HTML">
+                        <label><i class="fa-brands fa-cc-mastercard" style="color: #f7f7f7;"></i></label>
+                        <input type="radio" id="html" name="fav_language" value="HTML">
+                        <i class="fa-brands fa-cc-visa" style="color: #fafafa;"></i>
+                        <input type="radio" id="html" name="fav_language" value="HTML">
+                        <i class="fa-brands fa-cc-diners-club" style="color: #ffffff;"></i>
+                        <input type="radio" id="html" name="fav_language" value="HTML">
+                        <i class="fa-brands fa-cc-paypal" style="color: #ffffff;"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="rightBody">
+                <div class="field">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" id="lastName" name="lastName">
+                </div>
+                <div class="statePostal">
+                    <div class="field">
+                        <label for="state">State</label>
+                        <input list="pickState" name="browser" placeholder="Pick a state">
+                        <datalist id="pickState">
+                            <option value="Florida">
+                            <option value="Chicago">
+                            <option value="New York">
+                            <option value="California">
+                            <option value="Arizona">
+                        </datalist>
+                    </div>
+                    <div class="field">
+                        <label for="postalCode">Postal Code</label>
+                        <input type="text" id="postalCode" name="postalCode">
+                    </div>
+                </div>
+                <div class="field">
+                    <label for="message">Message</label>
+                    <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
+                    <p class="messagebottom">Add any notes here.</p>
+                </div>
+            </div>
+        </div>
+        <div class="buttons">
+            <button class="cancelB">Cancel</button>
+            <button class="sendB">Send</button>
+        </div>
+    </form>
+
+</body>
+
+</html>

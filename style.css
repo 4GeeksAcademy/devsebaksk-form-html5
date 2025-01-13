@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.mainBody{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 1rem 0rem;
+    margin: 0rem 0rem;
+}
+
+.buttons{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #f7f7f7;
+    border-top: 1px solid lightgray;
+}
+.sendB{
+    background-color: #017bfe;
+    color: white;
+    width: 5rem;
+    height: 2rem;
+    border: none;
+    border-radius: 5px;
+}
+.cancelB{
+    background-color: #6b757e;
+    color:white;
+    width: 5rem;
+    height: 2rem;
+    border: none;
+    border-radius: 5px;
+}
+.buttons button{
+    margin: 1rem 1rem;
+}
+.statePostal{
+    display: flex;
+    justify-content: space-between;
+}
+.field{
+    display: grid;
+    padding-right: 1rem;
+}
+.messagebottom{
+    color:lightslategray;
+    font-size: 0.8rem;
+}
+.field label{
+    padding: 0.5rem 0rem;
+}
+.field input{
+    height: 1.8rem;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+}
+textarea{
+    border: 1px solid lightgray;
+}
+.cardType{
+    display: flex;
+    background-color: #6b757e;
+    border-radius: 5px;
+    width: 50%;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center ;
+    padding: 0rem 1rem;
+}
+form{
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    display: grid;
+    justify-content: center;
+    width: 55rem;
+}
+body{
+    
+    padding-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.header{
+    background-color: #f7f7f7;
+    padding: 0px;
+    margin: 0px;
+    width: 55rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid lightgray;
+}
+h1{
+    padding-left: 1rem;
+    font-weight: 300;
+    font-size: 2rem;
+}
+.message p{
+    background-color: #f8d7d9;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 3px;
+    border: 1px solid #f6cbcf;
+    color:#944c51;
+}
+.card input{
+    width: 24rem;
+}
+.amount input{
+    width: 15rem;
+}
+.cvc input{
+    width: 10rem;
+}
+.leftBody{
+    width: 50%;
+    margin: 0rem 1rem;
+}
+.rightBody{
+    width: 50%;
+    margin: 0rem 1rem;
+}
+.toptopcard{
+    width: 100%;
+}
+.topCard{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    
+}
